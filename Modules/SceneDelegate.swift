@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Modules
 //
-//  Created by Darko Dujmovic on 30/01/2020.
+//  Created by Darko Dujmovic
 //  Copyright © 2020 Darko Dujmovic. All rights reserved.
 //
 

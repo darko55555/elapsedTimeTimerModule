@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Modules
 //
-//  Created by Darko Dujmovic on 30/01/2020.
+//  Created by Darko Dujmovic
 //  Copyright © 2020 Darko Dujmovic. All rights reserved.
 //
 
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        WorkdayState.sharedInstance.workdayState.process(event:.workdayPauseStarted)
+        
         configButtons(forState: WorkdayState.sharedInstance.workdayState.currentState)
         addActionsToButtons()
         
